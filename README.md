@@ -2,6 +2,8 @@
 
 >Proiektu honen helburua PHP eta Python-en garatutako aplikazio baten instalazio eta mantenimendua egitea erraztuko duen script interaktibo bat gauzatzea da, zeinaren azken helburua testu konplexutasuna neurtuko duen web aplikazio bat instalatzea izango den.
 
+## Zer egingo du programak?
+
 Script-ak Ubuntu 18.04 LTS sistema eragilea duen edozein konputagailutan funtzionatu beharko du, zeina ingelesez, gazteleraz edo euskaraz lokalizaturik egongo den. Script honek eskainiko dituen zerbitzuak ondoko hauek izango dira:
 
 - Python-en ingurune birtual bat sortuko du zeinean Python3-az eginiko programak egikarituko diren.
@@ -13,7 +15,8 @@ Script-ak Ubuntu 18.04 LTS sistema eragilea duen edozein konputagailutan funtzio
 - Web aplikazioarentzat PHP modulua instalatuko du.
 
 - Testu baten konplexutasuna neurtuko duen web aplikazioa instalatuko du.
-- ---
+
+## Funtzionalitateak
 
 Proiektu hau garatzeko bash komando interpretatzaileko lengoaiaz idatzitako script-ak erabiliko dira. Proiektu hau aprobatzeko ondoko funtzionalitateak inplementatzea obligaziozkoa izango da, zeintzuak script-ak eskainiko duen menuan bilduko diren modu honetan enumeratuta:
 
