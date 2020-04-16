@@ -1,4 +1,4 @@
-# 📝 *TESTU KONPLEXUTASUNA NEURTZEKO WEB APLIKAZIOA* ⛓️
+# 📝 *TESTU KONPLEXUTASUNA NEURTZEKO WEB APPa* ⛓️
 
 >Proiektu honen helburua PHP eta Python-en garatutako aplikazio baten instalazio eta mantenimendua egitea erraztuko duen script interaktibo bat gauzatzea da, zeinaren azken helburua testu konplexutasuna neurtuko duen web aplikazio bat instalatzea izango den.
 
