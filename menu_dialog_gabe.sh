@@ -1,18 +1,18 @@
 #!/bin/bash
 source "$(dirname "$0")/funtzioak/instalatuta.sh"
-source "$(dirname "$0")/funtzioak/desinstalatuDena.sh" #0
-source "$(dirname "$0")/funtzioak/apacheInstalatu.sh" #1
-source "$(dirname "$0")/funtzioak/apacheTestatu.sh" #2
-source "$(dirname "$0")/funtzioak/virtualHostSortu.sh" #3
-source "$(dirname "$0")/funtzioak/virtualHostaTestatu.sh" #4
-source "$(dirname "$0")/funtzioak/phpInstalatu.sh" #5
-source "$(dirname "$0")/funtzioak/phpTestatu.sh" #6
-source "$(dirname "$0")/funtzioak/py3venvSortu.sh" #7
-source "$(dirname "$0")/funtzioak/appaInstalatu.sh" #8
-source "$(dirname "$0")/funtzioak/appaBistaratu.sh" #9
-source "$(dirname "$0")/funtzioak/apacheLogak.sh" #10
-source "$(dirname "$0")/funtzioak/sshLogak.sh" #11
-source "$(dirname "$0")/funtzioak/irten.sh" #12
+source "$(dirname "$0")/funtzioak/dialog_gabe/desinstalatuDena.sh" #0
+source "$(dirname "$0")/funtzioak/dialog_gabe/apacheInstalatu.sh" #1
+source "$(dirname "$0")/funtzioak/dialog_gabe/apacheTestatu.sh" #2
+source "$(dirname "$0")/funtzioak/dialog_gabe/virtualHostSortu.sh" #3
+source "$(dirname "$0")/funtzioak/dialog_gabe/virtualHostaTestatu.sh" #4
+source "$(dirname "$0")/funtzioak/dialog_gabe/phpInstalatu.sh" #5
+source "$(dirname "$0")/funtzioak/dialog_gabe/phpTestatu.sh" #6
+source "$(dirname "$0")/funtzioak/dialog_gabe/py3venvSortu.sh" #7
+source "$(dirname "$0")/funtzioak/dialog_gabe/appaInstalatu.sh" #8
+source "$(dirname "$0")/funtzioak/dialog_gabe/appaBistaratu.sh" #9
+source "$(dirname "$0")/funtzioak/dialog_gabe/apacheLogak.sh" #10
+source "$(dirname "$0")/funtzioak/dialog_gabe/sshLogak.sh" #11
+source "$(dirname "$0")/funtzioak/dialog_gabe/irten.sh" #12
 source "$(dirname "$0")/funtzioak/updupg.sh"
 
 

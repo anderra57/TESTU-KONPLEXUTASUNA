@@ -13,7 +13,7 @@ function phpInstalatu()
 instalatuta php #&> /dev/null
 if [ "$?" = "0" ]; then
 	echo "php eta libapache2-mod-php instalatzen..."
-	yes | sudo apt install php &>/dev/null
+	yes | sudo apt install php
 	echo "Instalatuta!"
 else
 	echo "php instalatuta dago jada"

@@ -14,7 +14,7 @@ function sshLogak()
 instalatuta ssh #&> /dev/null
 if [ "$?" = "0" ]; then
 	echo "ssh instalatzen..."
-	yes | sudo aptitude install ssh &>/dev/null
+	yes | sudo aptitude install ssh 
 	echo "Instalatuta!"
 fi
 

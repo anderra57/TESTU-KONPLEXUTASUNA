@@ -13,7 +13,7 @@ function apacheInstalatu()
 instalatuta apache2 #&> /dev/null
 if [ "$?" = "0" ]; then
 	echo "apache instalatzen..."
-	yes | sudo apt-get install apache2 &>/dev/null
+	yes | sudo apt-get install apache2 
 	echo "Instalatuta!"
 else
 	echo "apache instalatuta dago jada"
@@ -21,7 +21,7 @@ fi
 instalatuta net-tools #&> /dev/null
 if [ "$?" = "0" ]; then
 	echo "net-tools instalatzen..."
-	yes | sudo apt install net-tools &>/dev/null
+	yes | sudo apt install net-tools 
 	echo "Instalatuta!"
 else
 	echo "net-tools instalatuta dago jada"
