@@ -14,6 +14,7 @@ instalatuta php #&> /dev/null
 if [ "$?" = "0" ]; then
 	echo "php eta libapache2-mod-php instalatzen..."
 	yes | sudo apt install php
+	yes | sudo apt install libapache2-mod-php
 	echo "Instalatuta!"
 else
 	echo "php instalatuta dago jada"

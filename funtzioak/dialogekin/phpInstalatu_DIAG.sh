@@ -15,7 +15,8 @@ if [ "$?" = "0" ]; then
 	dialog --backtitle "TESTU KONPLEXUTASUNA NEURTZEKO WEB APLIKAZIOA" --title "TESTU KONPLEXUTASUNA" \
                 --msgbox "PHP INSTALATUKO DA" 10 50
 	
-	yes | sudo apt install php 
+	yes | sudo apt install php
+	yes | sudo apt install libapache2-mod-php
 
 	dialog --backtitle "TESTU KONPLEXUTASUNA NEURTZEKO WEB APLIKAZIOA" --title "TESTU KONPLEXUTASUNA" \
                 --msgbox "INSTALATUTA" 10 50
